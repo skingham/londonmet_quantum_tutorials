@@ -55,6 +55,7 @@ Follow the (QISKIT install procedure)[https://quantum.cloud.ibm.com/docs/en/guid
         1. Install packages:
             ```sh
             python -m pip install qiskit[visualization] qiskit-ibm-runtime qiskit_aer qiskit_addon_aqc_tensor jupyter
+            ipython kernel install --user --name=ibm-qiskit
             ```
     * Conda:
         1. Create environment:
@@ -71,6 +72,9 @@ Follow the (QISKIT install procedure)[https://quantum.cloud.ibm.com/docs/en/guid
             python -m pip install qiskit_aer qiskit_addon_aqc_tensor 
             ipython kernel install --user --name=ibm-qiskit
             ```
+1. Create an [IBM account](https://www.ibm.com/account/reg/us-en/signup?formid=urx-19776).
+    * You need a free IBMid account to access documentation.
+    * There is a separate product for gaining access to quantum computing resources that we will look at later.
 
 ### 
 
