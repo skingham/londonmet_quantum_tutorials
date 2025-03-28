@@ -67,6 +67,7 @@ Follow the [QISKIT install procedure](https://quantum.cloud.ibm.com/docs/en/guid
 
             ```sh
             python -m pip install qiskit[visualization] qiskit-ibm-runtime qiskit_aer qiskit_addon_aqc_tensor jupyter
+            python -m pip install tweedledum qiskit-algorithms
             ipython kernel install --user --name=ibm-qiskit
             ```
 
@@ -74,7 +75,7 @@ Follow the [QISKIT install procedure](https://quantum.cloud.ibm.com/docs/en/guid
         1. Create environment:
 
             ```sh
-            conda create -c conda-forge --name 'ibm-qiskit' python=3.13
+            conda create -c conda-forge --name 'ibm-qiskit' python=3.10
             ```
 
         1. Activate environment:
@@ -88,6 +89,7 @@ Follow the [QISKIT install procedure](https://quantum.cloud.ibm.com/docs/en/guid
             ```sh
             conda install -c conda-forge qiskit qiskit-ibm-runtime jupyter seaborn pydot pylatexenc wrapt rich
             python -m pip install qiskit_aer qiskit_addon_aqc_tensor 
+            conda install -c conda-forge tweedledum qiskit-algorithms
             ipython kernel install --user --name=ibm-qiskit
             ```
 
