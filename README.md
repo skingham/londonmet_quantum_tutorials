@@ -6,7 +6,7 @@
 
 If you don't have a python version more recent than 3.11, install a newer version.
 
-1. Install 3.13 on your PC from the [python download page](https://www.python.org/downloads/).
+1. Install 3.10 on your PC from the [python download page](https://www.python.org/downloads/).
 
     It is ususally better to deselect 'Install for all users' and have python install into a directory under your home directory.
 
@@ -66,8 +66,7 @@ Follow the [QISKIT install procedure](https://quantum.cloud.ibm.com/docs/en/guid
         1. Install packages:
 
             ```sh
-            python -m pip install qiskit[visualization] qiskit-ibm-runtime qiskit_aer qiskit_addon_aqc_tensor jupyter
-            python -m pip install tweedledum qiskit-algorithms
+            python -m pip install qiskit[visualization] qiskit-ibm-runtime qiskit_aer qiskit_addon_aqc_tensor jupyter tweedledum qiskit-algorithms
             ipython kernel install --user --name=ibm-qiskit
             ```
 
@@ -89,7 +88,6 @@ Follow the [QISKIT install procedure](https://quantum.cloud.ibm.com/docs/en/guid
             ```sh
             conda install -c conda-forge qiskit qiskit-ibm-runtime jupyter seaborn pydot pylatexenc wrapt rich tweedledum qiskit-algorithms
             python -m pip install qiskit_aer qiskit_addon_aqc_tensor 
-            conda install -c conda-forge tweedledum qiskit-algorithms
             ipython kernel install --user --name=ibm-qiskit
             ```
 
