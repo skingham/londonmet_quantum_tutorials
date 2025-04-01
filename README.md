@@ -89,6 +89,7 @@ Follow the [QISKIT install procedure](https://quantum.cloud.ibm.com/docs/en/guid
             ```sh
             conda install -c conda-forge qiskit qiskit-ibm-runtime jupyter seaborn pydot pylatexenc wrapt rich tweedledum qiskit-algorithms
             python -m pip install qiskit_aer qiskit_addon_aqc_tensor 
+            conda install -c conda-forge tweedledum qiskit-algorithms
             ipython kernel install --user --name=ibm-qiskit
             ```
 
