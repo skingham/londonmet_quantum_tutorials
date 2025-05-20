@@ -142,7 +142,7 @@ This accompanites [Quantum Algorithm Implementations for Beginners](https://doi.
 
 [measure-a-state-in-hadamard-basis](https://quantumcomputing.stackexchange.com/questions/17798/measure-a-state-in-hadamard-basis)
 
-[Basic Quantum Computing — Super dense coding](https://medium.com/@charlie.thomas_94667/basic-quantum-computing-super-dense-coding-279eeaf233d8)
+[Basic Quantum Computing - Super dense coding](https://medium.com/@charlie.thomas_94667/basic-quantum-computing-super-dense-coding-279eeaf233d8)
 
 [Demystifying Superdense Coding](https://medium.com/qiskit/demystifying-superdense-coding-41d46401910e)
 
